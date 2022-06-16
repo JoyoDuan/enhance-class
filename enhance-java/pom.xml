@@ -12,6 +12,7 @@
     <modules>
         <module>module-oop</module>
         <module>module-api-lambda-regex</module>
+        <module>module-thread</module>
     </modules>
 
     <properties>
