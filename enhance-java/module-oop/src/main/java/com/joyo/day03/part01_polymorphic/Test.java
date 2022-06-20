@@ -4,6 +4,10 @@ public class Test {
     public static void main(String[] args) {
         // 目标：先认识多态的形式
         // 父类  对象名称 = new 子类构造器();
+        Dog dog = new Dog();
+        System.out.println(dog.name);
+        dog.run();
+
         Animal a = new Dog();
         a.run(); // 方法调用：编译看左，运行看右
         System.out.println(a.name); // 属性调用：编译看左，运行也看左，动物

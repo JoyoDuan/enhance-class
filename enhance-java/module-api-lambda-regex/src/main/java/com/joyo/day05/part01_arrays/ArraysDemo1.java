@@ -2,9 +2,9 @@ package com.joyo.day05.part01_arrays;
 
 import java.util.Arrays;
 
+// 目标：学会使用Arrays的常用API及其原理
 public class ArraysDemo1 {
     public static void main(String[] args) {
-        // 目标：学会使用Arrays的常用API及其原理
         int[] arr = {2, 20, 1, 3, 10, 30};
 
         System.out.println(arr);
@@ -30,6 +30,5 @@ public class ArraysDemo1 {
         int[] arr1 = {1, 8, 0, 2, 100, 10, 9};
         int index2 = Arrays.binarySearch(arr, 8);
         System.out.println(index2);
-
     }
 }
