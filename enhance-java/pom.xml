@@ -13,11 +13,7 @@
         <module>module-oop</module>
         <module>module-api-lambda-regex</module>
         <module>module-thread</module>
+        <module>module-junit-reflect-annotation-proxy-app</module>
     </modules>
-
-    <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
-    </properties>
 
 </project>
