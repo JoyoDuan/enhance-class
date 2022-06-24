@@ -9,6 +9,7 @@ public class MyRunnable implements Runnable {
 
         try {
             System.out.println(Thread.currentThread().getName() + "线程进入了休眠");
+            System.out.println("**********************************");
             Thread.sleep(10000000);
         } catch (Exception e) {
             e.printStackTrace();

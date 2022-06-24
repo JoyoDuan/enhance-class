@@ -1,5 +1,8 @@
 package com.joyo.day07.part07_thread_communication;
 
+/**
+ * 呼叫中心
+ */
 public class CallCenter {
     // 记录当前呼入进来的电话
     private static int number = 0; // 最多只接听一个

@@ -25,6 +25,7 @@ public class ThreadPoolDemo1 {
 
         // 2.给任务线程池处理
         Runnable target = new MyRunnable();
+
         // 核心线程
         pool.execute(target);
         pool.execute(target);

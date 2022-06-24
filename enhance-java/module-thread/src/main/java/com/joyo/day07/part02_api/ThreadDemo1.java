@@ -15,6 +15,7 @@ public class ThreadDemo1 {
         thread2.start();
         System.out.println(thread2.getName());
 
+        // 获取当前线程
         Thread main = Thread.currentThread();
         System.out.println(main.getName());
         main.setName("超级线程");
